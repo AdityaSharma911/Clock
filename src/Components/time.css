@@ -1,0 +1,72 @@
+.Time{
+    font-size:12vh;
+    padding-top: 20px;
+    color:aliceblue;
+    position: inherit;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Passion One', 'Times New Roman', Times, serif;
+}
+.outer-extra-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vh;
+    height: 55vh;
+    background: linear-gradient(135deg, #101124, #343861);
+    margin: 50px auto;
+    border-radius: 100%;
+    
+  }
+  
+  .outer-circle {
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    background-color: #151932;
+    border-radius: 100%;
+    
+  }
+  
+
+  
+  .inner-circle {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: #151932;
+    top: 5%;
+    left: 5%;
+    z-index: 500;
+    
+  }
+  
+ 
+  
+
+  .nav-links{
+    width:40%;
+    display: flex;
+    list-style: none;
+    align-items:center;
+    justify-content:space-around;
+  }
+  .outer-circle:hover{
+    cursor: pointer;
+  }
+
+  @media (max-width:500px) {
+  
+    .outer-extra-circle {
+        height: 45vh;
+        width: 45vh;
+    }
+    .outer-circle {
+        height: 40vh;
+        width: 40vh;
+    }
+    .time {
+        font-size: 12.5vh;
+    }
+  }

@@ -3,7 +3,7 @@ import DisplayComponent from './DisplayComponent.js';
 import BtnComponent from './BtnComponent';
 import './timer.css';
 
-function Timer() {
+function Stopwatch() {
   const [time, setTime] = useState({ms:0, s:0, m:0, h:0});
   const [interv, setInterv] = useState();
   const [status, setStatus] = useState(0);
@@ -60,4 +60,4 @@ function Timer() {
   );
 }
 
-export default Timer;
+export default Stopwatch;

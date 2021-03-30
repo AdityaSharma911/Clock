@@ -1,0 +1,73 @@
+body{
+    background-color: blueviolet;
+  }
+  #timer {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #timerBody {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 2rem;
+      margin: 0 auto;
+    }
+    
+    #instructions {
+      margin: 0 0 1.5rem;
+    }
+    
+    #timerInput {
+      display: flex;
+      align-items: center;
+    }
+    
+    span {
+      font-size: 5rem;
+    }
+    
+    input[type="number"] {
+      width: 8rem;
+      padding: 0;
+      border: 1px inset;
+      
+      font-size: 5rem;
+      text-align: center;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      background-color: blueviolet;
+    }
+    
+    #buttonContainer {
+      margin: 1.5rem 0;
+    }
+    
+    button {
+      padding: 0.4rem 1.5rem;
+      
+      margin: 0 0.5rem;
+      background-color: blueviolet;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+      text-transform: capitalize;
+      cursor: pointer;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      border-radius: 20%;
+    }
+    
+    button:disabled {
+      opacity: 0.4;
+    }
+    
+    input:disabled {
+      display: none;
+    }
+  
